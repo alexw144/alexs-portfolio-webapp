@@ -1,3 +1,7 @@
 a:hover {
     color:blueviolet !important;
 }
+.nav-icon {
+    max-width: 24px;
+    max-height: 24px;
+}
