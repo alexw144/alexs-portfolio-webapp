@@ -4,8 +4,13 @@ function ContactInfo() {
       <div className="container-fluid">
         <h2>My Contact Information</h2>
         <ul>
-          <li>Phone: </li>
-          <li>Email: </li>
+          <li>Phone: 412-443-7785</li>
+          <li>
+            Email:{" "}
+            <a href="mailto:alexanderwagner144@gmail.com">
+              alexanderwagner144@gmail.com
+            </a>
+          </li>
         </ul>
       </div>
     </section>

@@ -11,10 +11,10 @@ function NavItems() {
           Home
         </Link>
         <Link className="navbar-brand" to="/school-projects">
-          SchoolProjects
+          School Projects
         </Link>
         <Link className="navbar-brand" to="/work-experience">
-          WorkExperience
+          Work Experience
         </Link>
       </div>
       <div className="container-field">
