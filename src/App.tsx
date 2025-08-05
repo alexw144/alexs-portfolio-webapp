@@ -1,18 +1,17 @@
-import NavItems from "./components/navbar";
-import AboutSect from "./components/about";
-import SkillList from "./components/skills";
-import ProjectOv from "./components/projects";
-import ContactInfo from "./components/contact";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { Home } from "./pages/Home";
+import { SchoolProjects } from "./pages/SchoolProjects";
+import { WorkExperience } from "./pages/WorkExperience";
 
 function App() {
   return (
-    <div>
-      <NavItems />
-      <AboutSect />
-      <SkillList />
-      <ProjectOv />
-      <ContactInfo />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/school-projects" element={<SchoolProjects />} />
+        <Route path="/work-experience" element={<WorkExperience />} />
+      </Routes>
+    </Router>
   );
 }
 
