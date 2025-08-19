@@ -5,3 +5,19 @@ a:hover {
     max-width: 24px;
     max-height: 24px;
 }
+.project-card {
+    max-width: 1280px;
+}
+.project-card p {
+    max-width: 960px;
+}
+.project-img-container {
+    max-width: 960px;
+    max-height: 540px;
+}
+.project-img-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}

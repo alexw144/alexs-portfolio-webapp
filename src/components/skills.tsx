@@ -6,10 +6,11 @@ function SkillList() {
         <h3>Languages</h3>
         <ul>
           <li>Python</li>
-          <li>Javascript</li>
+          <li>JavaScript</li>
           <li>HTML</li>
           <li>CSS</li>
           <li>SQL</li>
+          <li>TypeScript</li>
           <li>Java</li>
           <li>C++</li>
         </ul>
