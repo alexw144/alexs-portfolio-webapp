@@ -7,6 +7,7 @@ interface Project {
   description: string;
   stack: string[];
   image: string;
+  imageAlt: string;
 }
 
 function ProjectGroup() {
@@ -19,10 +20,7 @@ function ProjectGroup() {
             <h3>{project.title}</h3>
             <p>{project.description}</p>
             <div className="project-img-container">
-              <img
-                src={project.image}
-                alt="Top of the dutch bicycle website homepage. Shows the navbar, featured image, and featured bikes."
-              ></img>
+              <img src={project.image} alt={project.imageAlt}></img>
             </div>
             <a href={project.codeLink}>View Code</a>
             <ul>

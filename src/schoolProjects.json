@@ -6,7 +6,8 @@
       "codeLink": "https://github.com/alexw144/CSC-VI-Application-Development-II---Final-Project---Video-Game-Tracker-Web-Application",
       "description": "This project was created as a final for the CSC-VI Application Development class during the Spring 2025 semester at Carlow University. This project was created in 4 2-week stints using the Agile process. The main programming language used was Python and Django was used for the framework. I used JavaScipt to make the website asychronous and responsive (AJAX). There is of course uses of HTML, CSS, and SQL too. Lastly, I made common commits using git and the whole project is on my GitHub page.",
       "stack": ["Python", "Django", "Javascript", "CSS", "HTML", "AJAX", "SQL", "git"],
-      "image": ""
+      "image": "src/assets/projectImages/video-game-tracker.jpg",
+      "imageAlt": "Top of the Video Game Tracker Web Application game library page. Shows the navbar and a portion of the library of games."
     },
     {
       "id": 2,
@@ -14,7 +15,8 @@
       "codeLink": "https://gitlab.com/awagner50/cross-cultural-and-accessible-web-design-dutch-bicycle-shop",
       "description": "This project was created as a final for the Cross Cultural and Accessible Web Designn class during the Spring 2025 semester at Carlow University. The projects main focus was accessibilty and Dutch culture. Research was conducted into the Netherlands culture as well as how their websites are designed. WCAG guideliens wre used as well as other accessibility tools. HTML and CSS were the only languages used. This project is on my GitLab page.",
       "stack": ["HTML", "CSS", "WCAG"],
-      "image": "src/assets/projectImages/dutch_bicycle_shop.jpg"
+      "image": "src/assets/projectImages/dutch_bicycle_shop.jpg",
+      "imageAlt": "Top of the dutch bicycle website homepage. Shows the navbar, featured image, and featured bikes."
     },
     {
       "id": 3,
@@ -22,7 +24,8 @@
       "codeLink": "https://curtsspottingadventures.wordpress.com/",
       "description": "This project was created as a final for the User Experience 2 class at Carlow University during the Fall 2024 semester. I was tasked with creating a small 3 page website for an artist, brand, or something. I chose to make a website dedicated to one of my close friends who loves taking photos of airplanes in his spare time. I used WordPress to craete all 3 webpages. i also needed to create a user storyboard, user personas, a user journey map, a low fidelity protoytpe, and high-fidelity prototype. This project is located on the WordPress site.",
       "stack": ["WordPress", "HTML", "CSS", "UX"],
-      "image": "src/assets/projectImages/curts-spotting-adventures.jpg"
+      "image": "src/assets/projectImages/curts-spotting-adventures.jpg",
+      "imageAlt": "Top of Curt's Spotting Adventures homepage. Shows the navbar, a plane, and information regarding the plane."
     }
   ]
 }

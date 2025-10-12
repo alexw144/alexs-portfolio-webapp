@@ -19,13 +19,16 @@ function SkillList() {
           <li>ReactJS</li>
           <li>Django</li>
           <li>WordPress</li>
-          <li>Flask</li>
           <li>AJAX</li>
           <li>jQuery</li>
           <li>MySQL</li>
           <li>Microsoft SQL Server</li>
+          <li>Flask</li>
           <li>Pandas</li>
           <li>NumPy</li>
+          <li>Matplotlib</li>
+          <li>Requests</li>
+          <li>JSON</li>
         </ul>
         <h3>Software</h3>
         <ul>
