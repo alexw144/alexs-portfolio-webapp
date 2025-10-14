@@ -1,8 +1,8 @@
 function AboutSect() {
   return (
-    <section id="about">
+    <section className="section-about" id="about">
       <div className="container-fluid">
-        <h2>Hello, I'm Alex Wagner</h2>
+        <h1 className="h1-about"><span className="purple-text">Hello, I'm</span> Alex Wagner</h1>
         <p>
           I am an aspiring web developer, located in Pittsburgh, Pennsylvania. I
           paved the way as one of the first students to graduate from Carlow
@@ -10,8 +10,7 @@ function AboutSect() {
           the opportunity to create important webpages while interning with
           Carlow University's marketing team. I hope to one day become a
           full-stack developer, but for now, I am looking to jumpstart my career
-          as a web developer. You can catch me creating new websites, playing
-          video games, or studying Japanese.
+          as a full-stack developer. You can catch me creating new websites, going out with my friends, studying Japanese, and more.
         </p>
       </div>
     </section>

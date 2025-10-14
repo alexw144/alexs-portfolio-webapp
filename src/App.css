@@ -1,3 +1,13 @@
+section {
+    margin: 1.5em 0 1.5em 0;   
+}
+h1 {
+    margin-bottom: 0.75em;
+    color: blueviolet;
+}
+h3 {
+    color: blueviolet;
+}
 a:hover {
     color:blueviolet !important;
 }
@@ -6,14 +16,9 @@ a:hover {
     max-height: 24px;
 }
 .project-card {
-    max-width: 1280px;
     margin-bottom: 5em;
 }
-.project-card p {
-    max-width: 960px;
-}
 .project-img-container {
-    max-width: 960px;
     max-height: 540px;
 }
 .project-img-container img {
@@ -21,4 +26,82 @@ a:hover {
     height: auto;
     display: block;
     object-fit: contain;
+}
+.div-home-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 60%;
+}
+.section-skill-set {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 58.75%;
+}
+.div-skills {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.section-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 60%;
+}
+.div-school-projects-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+.section-projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 60%;
+}
+.div-work-exp-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.section-work {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 60%;
+}
+.purple-text {
+    color: #111111;
+}
+.h1-about {
+ margin-bottom: 0.25em;   
+}
+.button-link {
+    background-color: blueviolet;
+    border: none;
+    padding: .5em 1.5em .5em 1.5em;
+    color: #F8F9FA;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+.button-link:hover {
+    background-color: #F8F9FA;
+    color: blueviolet;
+}
+.h3-project-stack {
+    margin: 1em 0 1em 0;
+}
+.ul-project-stack {
+    margin-top: 2em;
+}
+.p-webpage-description {
+    margin: 2.5em 0 1.5em 0;
 }

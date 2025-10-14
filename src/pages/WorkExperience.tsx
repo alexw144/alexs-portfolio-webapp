@@ -5,7 +5,9 @@ export function WorkExperience() {
   return (
     <div>
       <NavItems />
-      <WorkGroup />
+      <div className="div-work-exp-page">
+        <WorkGroup />
+      </div>
     </div>
   );
 }

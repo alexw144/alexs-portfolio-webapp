@@ -7,9 +7,11 @@ export function Home() {
   return (
     <div>
       <NavItems />
-      <AboutSect />
-      <SkillList />
-      <ContactInfo />
+      <div className="div-home-page">
+        <AboutSect />
+        <SkillList />
+        <ContactInfo />
+      </div>
     </div>
   );
 }

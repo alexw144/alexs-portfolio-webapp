@@ -5,7 +5,9 @@ export function SchoolProjects() {
   return (
     <div>
       <NavItems />
-      <ProjectGroup />
+      <div className="div-school-projects-page">
+        <ProjectGroup />
+      </div>
     </div>
   );
 }

@@ -1,6 +1,6 @@
 function ContactInfo() {
   return (
-    <section id="contact">
+    <section className="section-contact" id="contact">
       <div className="container-fluid">
         <h2>My Contact Information</h2>
         <ul>

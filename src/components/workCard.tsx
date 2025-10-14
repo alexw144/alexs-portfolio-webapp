@@ -12,16 +12,17 @@ interface Webpage {
 function WorkGroup() {
   console.log(data);
   return (
-    <section>
+    <section className="section-work">
       <div className="container-fluid">
+        <h1>Carlow University - Web Developer Intern</h1>
         {data.webpages.map((webpage: Webpage) => (
           <div key={webpage.id} className="project-card">
-            <h3>{webpage.title}</h3>
+            <h2>{webpage.title}</h2>
             <div className="project-img-container">
               <img src={webpage.image} alt={webpage.imageAlt}></img>
             </div>
-            <p>{webpage.description}</p>
-            <a href={webpage.webLink}>View Web Page</a>
+            <p className="p-webpage-description">{webpage.description}</p>
+            <a className="button-link" href={webpage.webLink}>View Web Page</a>
           </div>
         ))}
       </div>
