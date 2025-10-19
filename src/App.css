@@ -1,3 +1,6 @@
+body {
+  padding-top: 70px;
+}
 section {
     margin: 1.5em 0 1.5em 0;   
 }
@@ -9,14 +12,14 @@ h3 {
     color: blueviolet;
 }
 a:hover {
-    color:blueviolet !important;
+    color:blueviolet;
 }
 .nav-icon {
     max-width: 24px;
     max-height: 24px;
 }
 .project-card {
-    margin-bottom: 5em;
+    margin-bottom: 50px;
 }
 .project-img-container {
     max-height: 540px;
@@ -48,6 +51,7 @@ a:hover {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: flex-start;
 }
 .section-contact {
@@ -88,12 +92,12 @@ a:hover {
     background-color: blueviolet;
     border: none;
     padding: .5em 1.5em .5em 1.5em;
-    color: #F8F9FA;
-    font-size: 1.5em;
+    color: mintcream;
+    font-size: 1.25em;
     text-decoration: none;
 }
 .button-link:hover {
-    background-color: #F8F9FA;
+    background-color: lavender;
     color: blueviolet;
 }
 .h3-project-stack {
@@ -104,4 +108,41 @@ a:hover {
 }
 .p-webpage-description {
     margin: 2.5em 0 1.5em 0;
+}
+.navbar-brand {
+    color: lavender;
+}
+.navbar-brand:hover {
+    color: blueviolet;
+}
+.active-link {
+    color: blueviolet;
+}
+.navbar-containter {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: .5em 1.5em .5em 1.5em;
+}
+.contact-a {
+    color: blueviolet;
+    text-decoration: none;
+}
+.contact-a:hover {
+    color: lightskyblue;
+}
+.contact-buttons{
+    margin: 1em 0 1em 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.contact-buttons a {
+    margin: 0 1em .5em 0;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
 }
