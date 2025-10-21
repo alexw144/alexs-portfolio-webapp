@@ -9,8 +9,7 @@ function AboutSect() {
           University with a Bachelor's degree in Computer Science. I even had
           the opportunity to create important webpages while interning with
           Carlow University's marketing team. I hope to one day become a
-          full-stack developer, but for now, I am looking to jumpstart my career
-          as a full-stack developer. You can catch me creating new websites, going out with my friends, studying Japanese, and more.
+          full-stack developer, but for now, I am looking to jumpstart my career. You can catch me creating new websites, going out with my friends, studying Japanese, and more.
         </p>
       </div>
     </section>
