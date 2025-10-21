@@ -5,7 +5,7 @@
       "title": "Quick Facts",
       "webLink": "https://www.carlow.edu/about/quick-facts/",
       "description": "The webpage provides information on academic offerings, enrollment statistics, notable features, student body, and faculty.",
-      "image": "src/assets/workImages/carlow-quick-facts.jpg",
+      "image": "media/workImages/carlow-quick-facts.jpg",
       "imageAlt": "Top of Carlow University's 'Quick Facts' webpage. Details an image as well as facts about the schools majors offered, student enrollment, amd degree levels awarded."
     },
     {
@@ -13,7 +13,7 @@
       "title": "Tracking Our Success: Connecting with Future Leaders",
       "webLink": "https://www.carlow.edu/tracking-our-success/",
       "description": "This webpage provides information on how Carlow University tracks the success of its students and graduates. It includes blog, Instagram, LinkedIn, and YouTube posts. (This page has been updated since I stopped interning at carlow)",
-      "image": "src/assets/workImages/carlow-tracking-our-success.jpg",
+      "image": "media/workImages/carlow-tracking-our-success.jpg",
       "imageAlt": "Top of Carlow University's 'Tracking Our Success: Connecting with Future Leaders' webpage. Details two blog posts that contains an image, link, and brief summary."
     },
     {
@@ -21,7 +21,7 @@
       "title": "Carlow’s Institutional Goals",
       "webLink": "https://www.carlow.edu/about/carlows-institutional-goals/",
       "description": "This web page details Carlow University’s institutional goals of focusing on their commitment to student success, academic excellence, community engagement, and enhancing the student experience.",
-      "image": "src/assets/workImages/carlow-institutional-goals.jpg",
+      "image": "media/workImages/carlow-institutional-goals.jpg",
       "imageAlt": "Top of Carlow University's 'Carlow’s Institutional Goals' webpage. Details 3 images in a collage and the beginning of the text on the webpage."
     }
   ]
