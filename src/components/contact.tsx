@@ -1,3 +1,5 @@
+import resume from "../assets/documents/Alexander Wagner Resume 1.pdf"
+
 function ContactInfo() {
   return (
     <section className="section-contact" id="contact">
@@ -13,7 +15,7 @@ function ContactInfo() {
           </li>
           <li>
             Resume:{" "}
-            <a className="contact-a" href="src\assets\documents\Alexander Wagner Resume 1.pdf">
+            <a className="contact-a" href={resume}>
               Alexander Wagner Resume 1.pdf
             </a>
           </li>
