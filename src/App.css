@@ -1,5 +1,5 @@
 body {
-  padding-top: 70px;
+    padding-top: 75px;
 }
 section {
     margin: 1.5em 0 1.5em 0;   
@@ -20,9 +20,10 @@ a:hover {
 }
 .project-card {
     margin-bottom: 50px;
+    width: 100%;
 }
 .project-img-container {
-    max-height: 540px;
+    width: 100%;
 }
 .project-img-container img {
     width: 100%;
@@ -38,13 +39,13 @@ a:hover {
 .section-about {
     display: flex;
     flex-direction: column;
-    justify-content: left;
+    justify-content: flex-start;
     width: 60%;
 }
 .section-skill-set {
     display: flex;
     flex-direction: column;
-    justify-content: left;
+    justify-content: flex-start;
     width: 58.75%;
 }
 .div-skills {
@@ -57,7 +58,7 @@ a:hover {
 .section-contact {
     display: flex;
     flex-direction: column;
-    justify-content: left;
+    justify-content: flex-start;
     width: 60%;
 }
 .div-school-projects-page {
@@ -68,7 +69,8 @@ a:hover {
 .section-projects {
     display: flex;
     flex-direction: column;
-    justify-content: left;
+    align-items: center;
+    justify-content: flex-start;
     width: 60%;
 }
 .div-work-exp-page {
@@ -79,14 +81,16 @@ a:hover {
 .section-work {
     display: flex;
     flex-direction: column;
-    justify-content: left;
+    align-items: center;
+    justify-content: flex-start;
     width: 60%;
+    margin: 0 auto;
 }
 .purple-text {
     color: #111111;
 }
 .h1-about {
- margin-bottom: 0.25em;   
+    margin-bottom: 0.25em;   
 }
 .button-link {
     background-color: blueviolet;
