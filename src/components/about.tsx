@@ -4,7 +4,7 @@ function AboutSect() {
       <div className="container-fluid">
         <h1 className="h1-about"><span className="purple-text">Hello, I'm</span> Alex Wagner</h1>
         <p>
-          I am an aspiring web developer, located in Pittsburgh, Pennsylvania. I
+          I am a web developer, located in Pittsburgh, Pennsylvania. I
           paved the way as one of the first students to graduate from Carlow
           University with a Bachelor's degree in Computer Science. I even had
           the opportunity to create important webpages while interning with
