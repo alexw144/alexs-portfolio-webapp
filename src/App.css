@@ -87,7 +87,6 @@ p {
     align-items: center;
     justify-content: flex-start;
     width: 60%;
-    margin: 0 auto;
 }
 .purple-text {
     color: #111111;
@@ -152,4 +151,9 @@ p {
   top: 0;
   width: 100%;
   z-index: 1000;
+}
+.nav-pages {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap
 }

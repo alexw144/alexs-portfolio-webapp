@@ -8,31 +8,33 @@ function NavItems() {
     <nav className="navbar navbar-expand-lg navbar-light bg-dark">
       <div className="navbar-containter">
         <div className="container-field">
-          <NavLink
-            to="/"
-            end
-            className={({ isActive }) =>
-              `navbar-brand ${isActive ? "active-link" : ""}`
-            }
-          >
-            Home
-          </NavLink>
-          <NavLink
-            to="/school-projects"
-            className={({ isActive }) =>
-              `navbar-brand ${isActive ? "active-link" : ""}`
-            }
-          >
-            School Projects
-          </NavLink>
-          <NavLink
-            to="/work-experience"
-            className={({ isActive }) =>
-              `navbar-brand ${isActive ? "active-link" : ""}`
-            }
-          >
-            Work Experience
-          </NavLink>
+          <div className="nav-pages">
+            <NavLink
+              to="/"
+              end
+              className={({ isActive }) =>
+                `navbar-brand ${isActive ? "active-link" : ""}`
+              }
+            >
+              Home
+            </NavLink>
+            <NavLink
+              to="/school-projects"
+              className={({ isActive }) =>
+                `navbar-brand ${isActive ? "active-link" : ""}`
+              }
+            >
+              School Projects
+            </NavLink>
+            <NavLink
+              to="/work-experience"
+              className={({ isActive }) =>
+                `navbar-brand ${isActive ? "active-link" : ""}`
+              }
+            >
+              Work Experience
+            </NavLink>
+          </div>
         </div>
         <div className="container-field">
           <a
