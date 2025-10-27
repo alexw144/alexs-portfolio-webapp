@@ -2,11 +2,15 @@ body {
     padding-top: 75px;
 }
 section {
-    margin: 1.5em 0 1.5em 0;   
+    margin: 2em 0 1em 0;   
 }
 h1 {
+    font-size: 2.25em;
     margin-bottom: 0.75em;
     color: blueviolet;
+}
+h2 {
+    font-size: 1.75em;
 }
 h3 {
     color: blueviolet;
@@ -23,7 +27,7 @@ p {
     max-height: 24px;
 }
 .project-card {
-    margin-bottom: 50px;
+    margin: 1em 0 5em 0;
     width: 100%;
 }
 .project-img-container {
@@ -161,6 +165,13 @@ p {
     width: 100%;
     text-align: center;
   }
+    .section-about,
+    .section-skill-set,
+    .section-contact,
+    .section-projects,
+    .section-work {
+    width: 80% !important;
+    }
 }
 @media only screen and (max-width: 400px) {
     .nav-pages {
